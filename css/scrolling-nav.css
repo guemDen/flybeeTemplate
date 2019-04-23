@@ -4,9 +4,45 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 header {
-  padding: 156px 0 100px;
+  	padding: 156px 0 100px;
+}
+
+h5 {
+	display: inline-block;
+	padding: 10px;
+	background-color: #343a40;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: #d3a536;
 }
 
 section {
-  padding: 150px 0;
+  	padding: 150px 0;
+}
+
+blockquote.before {
+  	color: #d3a536;
+}
+
+blockquote.after {
+	color: #d3a536;
+}
+
+/*Carousel*/
+
+#carousel {
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+.carousel-indicators li {
+	background-color: #343a40;
+}
+
+.carousel-indicators .active {
+
+}
+
+#about {
+	padding-top: 125px;
 }
