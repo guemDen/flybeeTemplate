@@ -20,13 +20,14 @@ section {
   	padding: 150px 0;
 }
 
-blockquote.before {
-  	color: #d3a536;
+/*blockquote::before {
+  	color: #fff;
 }
 
-blockquote.after {
-	color: #d3a536;
+blockquote::after {
+	color: #fff;
 }
+*/
 
 /*Carousel*/
 

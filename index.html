@@ -31,6 +31,9 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#products">Produkte</a>
           </li>
           <li class="nav-item">
@@ -44,29 +47,39 @@
     </div>
   </nav>
 
-  <header class="bg-dark text-white" style="padding-top: 125px; padding-bottom: 55px;">
+  <header id="home" class="bg-dark text-white" style="padding-top: 125px; padding-bottom: 55px;">
     <div class="container text-center" style="padding-top: 55px;">
       <h1 style="color: #d3a536; font-size: 5em;">FLYBEE</h1>
-      <blockquote><p class="lead" style="font-style: italic; color: #d3a536; font-size: 2em;">float like a butterFLY, sting like a BEE</p></blockquote>
+      <blockquote><p class="lead" style="font-style: italic; color: #d3a536; font-size: 2em;">"float like a butterFLY, sting like a BEE"</p>
+        <footer> - <cite>Muhammad Ali</cite>
+      </footer>
+      </blockquote>
     </div>
   </header>
 
   <section id="prod" style="padding-top: 100px; padding-bottom: 50px;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
+
+        <div class="col-lg-5 mx-auto">
+          <h2>FLYBEE</h2>
+          <p style="text-align: justify;">Inspiriert von Muhammad Alis berühmtesten Zitat <q>Float like a butterfly, sting like a bee</q>. Nach jahrelanger Erfahrung in verschiedenen Kampfsportarten möchte man die beste Ausrüstung nutzen, um seinen Trainingserfolg zu maximieren. Das Ziel von FLYBEE ist es, keine Kompromisse einzugehen und nur Produkte herzustellen, von denen wir überzeugt sind. Durch lange Gespräche mit Profis und Amateuren, sowie eigener Erfahrung, sind wir überzeugt davon Ihnen die besten, am längsten getesteten und langlebigsten Produkte anbieten zu können. Zudem bieten wir ein Design an, welches sich abhebt, ins Auge sticht und einfach gut aussieht. Unsere Produkte machen dich nicht zum nächsten Muhammad Ali, aber wenn auch du keine Komprimisse bei deinem Trainingserfolg eingehen willst, dann überzeuge dich selber von der besten Kampfsport-Marke! </p>
+        </div>
+
+        <div class="col-lg-7 mx-auto">
           <div id ="Products" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
+            <!--
             <ol class="carousel-indicators">
               <li data-target="#Products" data-slide-to="0" class="active"></li>
               <li data-target="#Products" data-slide-to="1" class="active"></li>
               <li data-target="#Products" data-slide-to="2" class="active"></li>
-            </ol>
+            </ol>-->
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               <!-- active darf nur ein item sein, sonst kein sliding!-->
-              <div class="carousel-item active">
+              <div class="carousel-item">
                 <div class="container" style="width: 900px; height: 400px; margin-bottom: 50px">
                   <img class="d-block w-100" src="/images/flybee_kornhass-41.jpg" data-color="lightblue" alt="first image">
                   <!--<div class="carousel-caption">
@@ -84,13 +97,23 @@
                   <img class="d-block w-100" src="/images/flybee_kornhass-88.jpg" data-color="lightblue" alt="third image">
                 </div>
               </div>
+              <div class="carousel-item active">
+                <div class="container" style="width: 500px; height: 400px; margin-bottom: 50px">
+                  <img class="d-block w-100" src="/images/flybeeLogo_900_400.png" data-color="lightblue" alt="fourth image">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container" style="width: 500px; height: 400px; margin-bottom: 50px">
+                  <img class="d-block w-100" src="/images/overview_900_400.jpg" data-color="lightblue" alt="fourth image">
+                </div>
+              </div>
             </div>
 
             <!-- Controls -->
-            <a class="carousel-control-prev" href="#carouselProducts" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#Products" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </a>
-            <a class="carousel-control-next" href="#carouselProducts" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#Products" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>

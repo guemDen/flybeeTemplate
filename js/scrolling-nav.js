@@ -3,10 +3,18 @@
 
   // Carousel functions
   $('.Products').carousel({
-    interval: 1000,
+    interval: 700,
     pause: "false"
   });
+/*
+  $(".carousel-control-prev").click(function() {
+    $("#carouselProductsPrev").carousel("prev");
+  });
 
+  $(".carousel-control-next").click(function() {
+    $("#carouselProductsNext").carousel("next");
+  });
+*/
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
