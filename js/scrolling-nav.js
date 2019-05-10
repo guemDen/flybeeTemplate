@@ -6,6 +6,12 @@
     interval: 700,
     pause: "false"
   });
+
+  $('.bandage').carousel({
+    interval: 700,
+    pause: "false"
+  });
+
 /*
   $(".carousel-control-prev").click(function() {
     $("#carouselProductsPrev").carousel("prev");
@@ -13,14 +19,13 @@
 
   $(".carousel-control-next").click(function() {
     $("#carouselProductsNext").carousel("next");
-  });
-*/
+  });*/
 
-  $('#color-list a').on('click', function(e) {
-    e.preventDefault()
-    $(this).tab('show')
-  });
-  
+ $('#color-list a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
